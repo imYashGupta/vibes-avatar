@@ -14,7 +14,7 @@ This package is inspired by Taylor Otwell's [Laravel Avatars](https://avatars.la
 ✅ **Faster** - No network latency  
 ✅ **Offline support** - Works without internet  
 ✅ **Zero dependencies** - Lightweight and simple  
-✅ **Same deterministic output** - Same input = same avatar
+✅ **Same deterministic output** - Same input = same avatar  
 ✅ Lightweight (~2KB gzipped)
 
 ## Installation
