@@ -28,6 +28,10 @@
     "type": "git",
     "url": "https://github.com/imYashGupta/vibes-avatar"
   },
+  "homepage": "https://github.com/imYashGupta/vibes-avatar#readme",
+  "bugs": {
+    "url": "https://github.com/imYashGupta/vibes-avatar/issues"
+  },
   "devDependencies": {
     "@rollup/plugin-typescript": "^11.1.5",
     "rollup": "^4.9.0",
