@@ -43,7 +43,7 @@ const svgWithVibe = generateAvatarSVG("user@example.com", "ocean");
 const largeSvg = generateAvatarSVG("user@example.com", "sunset", 400);
 ```
 
-### React Component
+<!-- ### React Component
 
 ```jsx
 import { Avatar } from "vibes-avatar/react";
@@ -57,7 +57,7 @@ function UserProfile() {
     />
   );
 }
-```
+``` -->
 
 ### HTML/CSS
 
