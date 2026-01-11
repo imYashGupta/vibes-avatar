@@ -1,6 +1,6 @@
 {
   "name": "vibes-avatar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Deterministic gradient avatars with good vibes - no HTTP calls needed",
   "type": "module",
   "main": "dist/index.js",
