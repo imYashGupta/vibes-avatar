@@ -15,62 +15,62 @@ This package is inspired by Taylor Otwell's [Laravel Avatars](https://avatars.la
 ✅ **Offline support** - Works without internet  
 ✅ **Zero dependencies** - Lightweight and simple  
 ✅ **Same deterministic output** - Same input = same avatar
+✅ Lightweight (~2KB gzipped)
 
 ## Installation
 
-\`\`\`bash
+```bash
 npm install vibes-avatar
-\`\`\`
+```
 
 ## Usage
 
 ### Basic JavaScript/TypeScript
 
-\`\`\`javascript
-import { generateAvatarSVG, generateAvatarDataURL } from 'vibes-avatar';
+```javascript
+import { generateAvatarSVG, generateAvatarDataURL } from "vibes-avatar";
 
 // Generate SVG string
-const svg = generateAvatarSVG('user@example.com');
+const svg = generateAvatarSVG("user@example.com");
 
 // Generate data URL for img src
-const dataUrl = generateAvatarDataURL('user@example.com');
+const dataUrl = generateAvatarDataURL("user@example.com");
 
 // With specific vibe
-const svgWithVibe = generateAvatarSVG('user@example.com', 'ocean');
+const svgWithVibe = generateAvatarSVG("user@example.com", "ocean");
 
 // Custom size
-const largeSvg = generateAvatarSVG('user@example.com', 'sunset', 400);
-\`\`\`
+const largeSvg = generateAvatarSVG("user@example.com", "sunset", 400);
+```
 
 ### React Component
 
-\`\`\`jsx
-import { Avatar } from 'vibes-avatar/react';
+```jsx
+import { Avatar } from "vibes-avatar/react";
 
 function UserProfile() {
-return (
-<Avatar
-input="user@example.com"
-size={120}
-vibe="ocean" // Optional - auto-selects if not provided
-/>
-);
+  return (
+    <Avatar
+      input="user@example.com"
+      size={120}
+      vibe="ocean" // Optional - auto-selects if not provided
+    />
+  );
 }
-\`\`\`
+```
 
 ### HTML/CSS
 
-\`\`\`html
+```html
 <img id="avatar" />
 
 <script type="module">
-  import { generateAvatarDataURL } from 'vibes-avatar';
-  
-  document.getElementById('avatar').src = 
-    generateAvatarDataURL('user@example.com');
-</script>
+  import { generateAvatarDataURL } from "vibes-avatar";
 
-\`\`\`
+  document.getElementById("avatar").src =
+    generateAvatarDataURL("user@example.com");
+</script>
+```
 
 ## API
 
@@ -105,16 +105,6 @@ Returns the auto-selected vibe for a given input.
 - `crystal` - Purples
 - `ice` - Light blues
 - `stealth` - Grays
-
-## Features
-
-✅ Deterministic - same input always produces same avatar
-✅ Zero dependencies
-✅ No HTTP calls - everything runs locally
-✅ TypeScript support
-✅ React components included
-✅ Lightweight (~2KB gzipped)
-✅ Works in browser and Node.js
 
 ## License
 
