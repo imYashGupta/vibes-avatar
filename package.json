@@ -22,11 +22,11 @@
     "svg",
     "placeholder"
   ],
-  "author": "Your Name",
+  "author": "Yash Gupta",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/gradient-avatar"
+    "url": "https://github.com/imYashGupta/vibes-avatar"
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "^11.1.5",

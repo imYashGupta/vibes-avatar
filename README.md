@@ -1,4 +1,4 @@
-# gradient-avatar
+# vibes-avatar
 
 > Deterministic gradient avatars with good vibes - inspired by [Laravel Avatars](https://avatars.laravel.cloud)
 
@@ -27,7 +27,7 @@ npm install vibes-avatar
 ### Basic JavaScript/TypeScript
 
 \`\`\`javascript
-import { generateAvatarSVG, generateAvatarDataURL } from 'gradient-avatar';
+import { generateAvatarSVG, generateAvatarDataURL } from 'vibes-avatar';
 
 // Generate SVG string
 const svg = generateAvatarSVG('user@example.com');
@@ -45,7 +45,7 @@ const largeSvg = generateAvatarSVG('user@example.com', 'sunset', 400);
 ### React Component
 
 \`\`\`jsx
-import { Avatar } from 'gradient-avatar/react';
+import { Avatar } from 'vibes-avatar/react';
 
 function UserProfile() {
 return (
@@ -64,7 +64,7 @@ vibe="ocean" // Optional - auto-selects if not provided
 <img id="avatar" />
 
 <script type="module">
-  import { generateAvatarDataURL } from 'gradient-avatar';
+  import { generateAvatarDataURL } from 'vibes-avatar';
   
   document.getElementById('avatar').src = 
     generateAvatarDataURL('user@example.com');
