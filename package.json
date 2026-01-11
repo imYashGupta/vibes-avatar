@@ -1,0 +1,37 @@
+{
+  "name": "vibes-avatar",
+  "version": "1.0.0",
+  "description": "Deterministic gradient avatars with good vibes - no HTTP calls needed",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "avatar",
+    "gradient",
+    "deterministic",
+    "profile-picture",
+    "mesh-gradient",
+    "svg",
+    "placeholder"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/gradient-avatar"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.5",
+    "rollup": "^4.9.0",
+    "tslib": "^2.8.1",
+    "typescript": "^5.3.3"
+  }
+}
